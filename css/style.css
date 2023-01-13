@@ -1,0 +1,164 @@
+/* ********************************* */
+/*               Header              */
+/* ********************************* */
+
+.header {
+  height: 6.4rem;
+  padding: 6.4rem 9.6rem;
+  background-color: #eef1f6;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  list-style: none;
+  margin-left: 8rem;
+}
+.nav-btn:link,
+.nav-btn:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #0e1133;
+  transition: all 0.3s;
+}
+.nav-btn:hover,
+.nav-btn:active {
+  color: #b91435;
+}
+
+.nav-icon {
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}
+
+/* ********************************* */
+/*               Header              */
+/* ********************************* */
+.hero-section {
+  background-color: #eef1f6;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  align-content: end;
+}
+
+.hero-info {
+  padding-left: 12.8rem;
+}
+
+.heading-hero {
+  font-size: 7.4rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.heading-hero span {
+  font-weight: 700;
+}
+
+.subheading-hero {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.form-hero {
+  background-color: #fff;
+  width: 40rem;
+  padding: 1rem 2.4rem;
+  border-left: 3px solid #ff3e66;
+  border-radius: 100px;
+  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.075);
+
+  display: flex;
+  align-items: center;
+}
+
+.mail-icon {
+  font-size: 2rem;
+  color: #adb5bd;
+}
+
+input[type="email"] {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  padding: 1rem 10rem 1rem 1.6rem;
+}
+
+input[type="email"]:focus {
+  outline: none;
+}
+
+input[type="email"]::placeholder {
+  color: #495057e6;
+  font-size: 1.6rem;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.arrow-icon {
+  font-size: 2rem;
+  color: #ff3e66;
+}
+
+.people-hero {
+  display: flex;
+  align-items: center;
+
+  margin-top: 3.2rem;
+}
+
+.people-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgba(14, 17, 51, 0.035);
+  border-radius: 1rem;
+}
+.people-img img {
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-right: -1.6rem;
+}
+.people-hero img:last-child {
+  margin-right: 0;
+}
+
+.feedback-hero {
+  margin-left: 1.6rem;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+.feedback-hero span {
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+}

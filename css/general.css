@@ -88,6 +88,9 @@ body {
 .grid-4-col {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid-6-col {
+  grid-template-columns: repeat(6, 1fr);
+}
 /* ********************************* */
 /*        HELPER CLASSES            */
 /* ********************************* */
@@ -101,8 +104,8 @@ body {
 
 .scroll-to-top {
   position: fixed;
-  bottom: 5%;
-  right: 5%;
+  bottom: 3%;
+  right: 2%;
 
   background-color: #ff3e66;
   border-radius: 6px;

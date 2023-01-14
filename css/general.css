@@ -12,7 +12,7 @@ color:
 2- Text: #0e1133
 3- Hero bg: #eef1f6
 4- Grey: #adb5bd
-5- Text: #0e1133
+
 --- 03 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
@@ -69,19 +69,32 @@ body {
   margin-bottom: 1.6rem;
 }
 
-.sub-title-section {
+.sub-title {
   font-size: 1.8rem;
   line-height: 1.4;
   color: rgba(14, 17, 51, 0.72);
 }
 
-/* HELPER CLASSES */
+.grid {
+  display: grid;
+  gap: 3.2rem;
+}
+.grid-3-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+/* ********************************* */
+/*        HELPER CLASSES            */
+/* ********************************* */
 
 .text--center {
   text-align: center !important;
 }
-
-/* SCROLL TO TOP */
+/* ********************************* */
+/*          SCROLL TO TOP            */
+/* ********************************* */
 
 .scroll-to-top {
   position: fixed;
@@ -105,9 +118,4 @@ body {
 
 .top-icon {
   font-size: 2rem;
-}
-
-.btn--hover-blue:hover {
-  background-color: #0e1133;
-  color: #fff;
 }

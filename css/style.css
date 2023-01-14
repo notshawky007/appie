@@ -66,7 +66,7 @@
 .heading-hero {
   font-size: 7.4rem;
   font-weight: 400;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.2rem;
 }
 
 .heading-hero span {
@@ -161,4 +161,211 @@ input[type="email"]::placeholder {
 .hero-img img {
   width: 100%;
   height: 100%;
+}
+
+/* ********************************* */
+/*           HOW IT WORK             */
+/* ********************************* */
+
+.how-it-work {
+  padding: 9.6rem 0;
+}
+.title-section .main-title {
+  margin-bottom: 0;
+}
+.button-how {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-how {
+  background: none;
+  border: 2px solid rgba(14, 17, 51, 0.1);
+  padding: 1.4rem 2.4rem;
+  border-radius: 100px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.btn-how:hover {
+  background-color: #ff3e66;
+  color: #fff;
+}
+
+.how-services {
+  margin-top: 4rem;
+}
+
+.how-service {
+  border: 1px solid rgba(14, 17, 51, 0.17);
+  height: 30rem;
+  border-radius: 9px;
+
+  padding: 4.8rem 4.6rem;
+  transition: all 0.3s;
+}
+
+.how-service:hover {
+  background-color: rgba(0, 0, 0, 0.018);
+  transform: translateY(-0.8rem);
+}
+.how-service:nth-child(1):hover {
+  border-top: 2px solid #2facfc;
+}
+.how-service:nth-child(2):hover {
+  border-top: 2px solid #ea4d89;
+}
+.how-service:nth-child(3):hover {
+  border-top: 2px solid #3679ff;
+}
+.how-service:nth-child(4):hover {
+  border-top: 2px solid #f67842;
+}
+.how-service:nth-child(5):hover {
+  border-top: 2px solid #6b88f7;
+}
+.how-service:nth-child(6):hover {
+  border-top: 2px solid #3bb094;
+}
+
+.how-icon-box {
+  background-color: #2facfc;
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-icon-box-red {
+  background-color: #ea4d89;
+}
+
+.how-icon-box-blue {
+  background-color: #3679ff;
+}
+
+.how-icon-box-orange {
+  background-color: #f67842;
+}
+
+.how-icon-box-violet {
+  background-color: #6b88f7;
+}
+
+.how-icon-box-green {
+  background-color: #3bb094;
+}
+
+.how-it-icon {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.how-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.how-info-box {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #495057;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
+}
+
+.btn-how-info {
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: #495057;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.3s;
+}
+
+.btn-how-info:hover {
+  color: #ff3e66;
+  gap: 0.6rem;
+}
+
+/* ********************************* */
+/*             MARKETING             */
+/* ********************************* */
+
+.marketing-section {
+  padding-bottom: 9.6rem;
+}
+
+.marketing {
+  height: 46rem;
+  padding: 6.4rem;
+  background-color: #eef1f6;
+  overflow-y: hidden;
+}
+
+.marketing-sub-title {
+  font-size: 1.6rem;
+  color: #ff3e66;
+  margin-bottom: 1.6rem;
+}
+.main-title {
+  line-height: 1.2;
+}
+
+.marketing-img {
+  width: 51rem;
+  height: 100%;
+  align-self: start;
+  transform: translateY(-7.5%);
+}
+
+.chose-about-boxes {
+  margin-top: 3.2rem;
+  display: flex;
+}
+
+.check-flex-respon {
+  display: flex;
+}
+
+.check-icon-box {
+  width: 3.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background-color: #32c36a;
+  margin-right: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-icon {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.chose-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.chose-info {
+  font-size: 1.6rem;
+  color: rgba(14, 17, 51, 0.7);
+  line-height: 1.6;
 }

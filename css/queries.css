@@ -1,0 +1,130 @@
+/* ********************************* */
+/* BELOW 1360PX FOR SMALL DESKTOP */
+/* ********************************* */
+@media (max-width: 85em) {
+  .heading-hero {
+    font-size: 6.2rem;
+  }
+  .how-service {
+    padding: 3.2rem;
+  }
+  .marketing-img {
+    width: 100%;
+  }
+  .feature-title {
+    font-size: 2rem;
+  }
+  .feature-text {
+    line-height: 1.4;
+    font-size: 1.2rem;
+  }
+  .feature-container {
+    gap: 6.2rem !important;
+  }
+  .feature-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .feature-box {
+    padding: 2.4rem;
+  }
+  .how-2-boxes {
+    gap: 4.8rem !important;
+  }
+  .slide-img img {
+    height: 26rem;
+  }
+  .grid-4-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* ********************************* */
+/*           BELOW 1152PX            */
+/* ********************************* */
+@media (max-width: 72em) {
+  .heading-hero {
+    font-size: 5.2rem;
+  }
+  .main-title {
+    font-size: 4rem;
+  }
+  .sub-title {
+    font-size: 1.6rem;
+  }
+  .marketing {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    text-align: center;
+  }
+  .marketing-img {
+    display: none;
+  }
+  .chose-about-boxes {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .chose-about-box {
+    text-align: left;
+  }
+
+  .check-flex-respon {
+    display: flex;
+  }
+
+  .check-icon-box {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+  .feature-container {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-img {
+    justify-self: center;
+  }
+
+  .feat-img img {
+    width: auto;
+    height: 100%;
+  }
+  .pricing-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricing-green {
+    width: 50%;
+    justify-self: center;
+    grid-column: 1/ -1;
+  }
+  .testimonial-container {
+    flex-direction: column;
+    gap: 4.8rem;
+
+    padding: 5rem;
+  }
+
+  .testimonial-person img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .testimonial-text {
+    text-align: center;
+  }
+
+  .about-person {
+    flex-direction: column;
+    text-align: center;
+    gap: 3.2rem;
+  }
+
+  .and-btn-foot,
+  .apple-btn-foot {
+    padding: 1.2rem 2rem;
+  }
+
+  .copy {
+    font-size: 1.4rem;
+  }
+}

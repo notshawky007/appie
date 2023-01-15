@@ -112,9 +112,7 @@ body {
   padding: 1rem;
   color: #fff;
   cursor: pointer;
-
-  opacity: 0.3;
-
+  opacity: 0.5;
   transition: all 0.3s;
 }
 

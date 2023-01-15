@@ -44,9 +44,16 @@
   font-size: 1.2rem;
   margin-left: 0.4rem;
 }
+.mobile-nav {
+  display: none;
+}
+
+.mob-menu-close {
+  display: none;
+}
 
 /* ********************************* */
-/*               Header              */
+/*               HERO                */
 /* ********************************* */
 .hero-section {
   background-color: #eef1f6;

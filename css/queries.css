@@ -406,6 +406,9 @@
   .header {
     padding: 6.4rem 2.8rem;
   }
+  .form-hero {
+    padding: 1rem 3rem 1rem 1rem;
+  }
 
   .hero-info {
     padding: 0 3.2rem;
@@ -423,5 +426,9 @@
 
   .slide-img img {
     width: 100%;
+  }
+
+  .scroll-to-top {
+    right: 5%;
   }
 }

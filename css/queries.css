@@ -361,6 +361,9 @@
   .pricing-green {
     width: 100%;
   }
+  .testimonial-text {
+    font-size: 1.8rem;
+  }
 
   .btn-puase,
   .download-btn,
@@ -403,6 +406,9 @@
     font-size: 50%;
   }
 
+  .scroll-to-top {
+    right: 5%;
+  }
   .header {
     padding: 6.4rem 2.8rem;
   }
@@ -419,16 +425,21 @@
     padding: 0 6.4rem;
   }
 
+  .feature-container {
+    align-items: center;
+    justify-content: center;
+  }
   .feature-img img {
     max-width: 35rem;
     height: 100%;
   }
-
+  .feature-box {
+    width: 30rem;
+  }
   .slide-img img {
     width: 100%;
   }
-
-  .scroll-to-top {
-    right: 5%;
+  .testimonial-text {
+    font-size: 1.6rem;
   }
 }
